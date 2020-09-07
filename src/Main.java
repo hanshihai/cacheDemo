@@ -42,7 +42,7 @@ public class Main {
            main.enableCache = false;
        }
        Scanner input = new Scanner(System.in);
-       System.out.print("please input the key (quit, plesae input quit): ");
+       System.out.print("please input the key (quit, please input quit): ");
        while(input.hasNext()) {
            String inputKey = input.next();
            if("quit".equals(inputKey)) {
